@@ -11,6 +11,7 @@ let result
 possibleChoices.forEach(possibleChoices => possibleChoices.addEventListener('click',(e)=> {
     console.log("HI")
     userChoice = e.target.id
+    console.log(userChoice)
     userChoiceDisplay.innerHTML=userChoice
     generateComputerChoice()
     getResult()
